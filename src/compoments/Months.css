@@ -1,0 +1,91 @@
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.map p{
+    margin-top: 20px;
+}
+.l-group{
+    padding-top: 100px;
+}
+
+
+.square{
+    border: 1px solid rgba(241, 160, 18, 1); 
+    max-width: 510px;
+    border-radius: 8px;
+    margin:  50px;
+    padding: 20px;
+    position: relative;
+    outline: ;
+    
+}
+.all::after{
+    height: 600px;
+    width: 2px;
+    content: "";
+    background-color:rgba(241, 160, 18, 1) ; 
+    position: absolute;
+    top: 18%;
+    right: 50%;
+  
+ 
+
+}
+.l-group .square::after {
+    content: "";
+    width: 24px;
+    height: 24PX;
+    border-radius:50% ;
+  background-color:rgba(241, 160, 18, 1) ;  
+  position: absolute;
+  top: 50%;
+right: 115%;
+  transform: translate(50%);
+}
+.l-group .square::before {
+    content: "";
+    width: 1px;
+    height: 75px;
+  background-color:rgba(241, 160, 18, 1) ;  
+  position: absolute;
+  top: 38%;
+ right: 107%;
+  transform: translate(50%);
+  transform: rotate(90deg);
+}
+.r-group .square::after {
+    content: "";
+    width: 24px;
+    height: 24PX;
+    border-radius:50% ;
+  background-color:rgba(241, 160, 18, 1) ;  
+  position: absolute;
+  top: 50%;
+left: 109%;
+  transform: translate(50%);
+}
+
+.r-group .square::before {
+    content: "";
+    width: 1px;
+    height: 75px;
+  background-color:rgba(241, 160, 18, 1) ;  
+  position: absolute;
+  top: 38%;
+ left: 107%;
+  transform: translate(50%);
+  transform: rotate(90deg);
+}
+.square h6{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    color: white;
+
+}
+.square p{
+    font-size: 16px;
+}

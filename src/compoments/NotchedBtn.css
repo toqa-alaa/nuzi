@@ -1,0 +1,26 @@
+.notched{
+    width: fit-content;
+    padding: 5px 5px;
+    overflow: hidden;
+ background-color: rgba(255, 211, 99, 1);
+    clip-path: polygon(50% 0%, 107% -3%, 103% 58%, 86% 114%, -2% 106%, -1% 38%, 14% -12%);      
+  
+  
+   }
+
+  .NotchedBtn {
+  
+ 
+    overflow: hidden;
+    position: relative;
+     width: fit-content;
+      padding: 7px 15px;
+      overflow: hidden;
+      text-decoration: none;
+      text-align: center;
+     clip-path: polygon(50% 0%, 107% -3%, 103% 58%, 86% 114%, -2% 106%, -1% 38%, 14% -12%);      
+        border: 2px solid rgb(13, 3, 49);
+
+  }
+
+  
