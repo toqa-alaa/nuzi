@@ -25,7 +25,7 @@ function Card() {
 
 */
 
-import "./Card.css"; // ملف CSS
+import "./Card.css"; 
 
 const Card = ({ 
   image, 
@@ -39,7 +39,8 @@ const Card = ({
   iconimg,
 }) => {
   return (
-    <div className="card "> 
+    <div className="one m-2"> 
+    <div className="card ">
            <h3 className="card-title">{title}</h3>
 <div>      
 
@@ -55,14 +56,14 @@ const Card = ({
         <div  className="">  
       <span className="card-price text-white">Current bid: </span>
       <div className="card-amount">
-      <img src={pic} alt={title} className="card-image" />
+      <img src={pic} alt={title} className="card-pic " />
         {price}</div></div>
         <div>   
              <button className="card-button text-white">{buttonText}</button>
 </div>
     
     </div>
-    </div>
+    </div></div>
   );
 };
 
@@ -76,5 +77,7 @@ Card.defaultProps = {
   iconimg:'/product.png'
 
 };
+
+
 
 export default Card;

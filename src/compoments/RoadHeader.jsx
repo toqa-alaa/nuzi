@@ -13,7 +13,7 @@ function RoadHeader() {
                 <li><i className="fa-solid fa-fire"></i> Featured</li>
                 <li><i className="fa-solid fa-border-all"></i> All items</li>
                 <li><i className="fa-solid fa-book-open"></i> Read</li>
-                <li> <img src="/Vector.svg" alt="" /> product</li>
+                <li> <img src="/Vector1.svg" alt="" /> product</li>
                 <li><img src="/Button (2).png" alt="" /></li>
             </ul>
 </div>
@@ -66,9 +66,10 @@ function RoadHeader() {
     
     
        </div>
+       <div className="d-flex flex-wrap"> <Card/>
             <Card/>
-            <Card/>
-            <Card/>
+            <Card/></div>
+           
             
             </div>
         </div>

@@ -1,6 +1,7 @@
 import PageNav from "../compoments/PageNav"
 import PageFooter from "../compoments/PageFooter"
 import RoadHeader from "../compoments/RoadHeader"
+import "./MarketPlace.css"
 
 
 
@@ -8,7 +9,7 @@ function MarketPlace() {
     return (
         <div>
             <PageNav/>
-            <section> <RoadHeader/></section>
+            <section className="MarketPlace"> <RoadHeader/></section>
 
             <PageFooter/>
        

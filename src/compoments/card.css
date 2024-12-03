@@ -4,35 +4,34 @@
     clip-path: polygon(0 0, 100% 0%, 100% 76%, 67% 100%, 0 100%);
     overflow: hidden;
 }*/
+.one{
+
+height:350px;
+width:250px;
+background-color:#ec971f;
+display:flex;
+justify-content: center;
+clip-path:polygon(0 0, 100% 0%, 100% 76%, 67% 100%, 0 100%);
+}
 .card {
-    background-color: rgba(8, 9, 10, 1);
     color: #fff;
     position: relative;
-    padding: 20px;
-    border-radius:12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: relative;
     clip-path: polygon(0 0, 100% 0%, 100% 76%, 67% 100%, 0 100%);
-    border:1px solid #ec971f;
-margin: 20px ;
-height: fit-content;
+    height:345px;
+   width:245px;
+
+background-color:#141413;
+
+align-self:center;
+clip-path: polygon(0 0, 100% 0%, 100% 76%, 67% 100%, 0 100%);
+
   }
-  .card::after{
-    content: '';
-    width: 1px;
-    position: absolute;
-    height: 36%;
-    top: 64%;
-    left: 67%;
-    transform: rotateZ(45deg);
-    transform-origin: bottom right;
-    background-color: #ec971f;
-    
-  }
+
   .card-badge {
     position: absolute;
-    top: 90px;
+    top: 70px;
     left: 60px;
     background-color: #f1a013;
     color: white;
@@ -40,18 +39,20 @@ height: fit-content;
     border-radius: 10px;
     font-size: 12px;
     font-weight: bold;
+    position: absolute;
   }
   .iconimg{
     position: absolute;
-    top: 90px;
+    top: 70px;
     left: 25px;
 
   }
   .card-image {
-    width: 100%;
-    height: 200px;
+    padding: 15px;
+    width: 245px;
+    height: 219px;
     object-fit: cover;
-    border-radius: 8px;
+    position: relative;
   }
   
   .card-title {
@@ -85,6 +86,7 @@ height: fit-content;
   .card-text img{
 width: 35px;
 height:  35px;
+padding: 5px;
   }
   .card-text{
     display: flex;
